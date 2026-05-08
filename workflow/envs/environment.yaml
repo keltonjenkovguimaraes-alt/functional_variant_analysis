@@ -1,11 +1,5 @@
 name: func_analysis
-channels:
-
-conda-forge
-
-bioconda
-
-defaults
+channels: [conda-forge, bioconda, defaults]
 dependencies:
 
 python=3.9
@@ -19,5 +13,3 @@ matplotlib
 seaborn
 
 scipy
-
-requests
